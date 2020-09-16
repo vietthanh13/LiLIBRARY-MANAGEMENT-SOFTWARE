@@ -1,0 +1,5 @@
+D:\Quản lý thư viện\DTO\bin\Debug\DTO.dll
+D:\Quản lý thư viện\DTO\bin\Debug\DTO.pdb
+D:\Quản lý thư viện\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\Quản lý thư viện\DTO\obj\Debug\DTO.dll
+D:\Quản lý thư viện\DTO\obj\Debug\DTO.pdb

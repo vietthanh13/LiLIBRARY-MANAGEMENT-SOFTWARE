@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{820D9F85-D7CA-4DED-B535-D828337B87DF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Quản_lý_thư_viện</RootNamespace>
+    <AssemblyName>Quản lý thư viện</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>C:\Users\Thanh\Desktop\Bunifu_UI_v1.52\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <HintPath>..\packages\Cfee.CrystalReports.Log4Net.13.0.3501.1\lib\net20\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tBill.Designer.cs">
+      <DependentUpon>tBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tBook.Designer.cs">
+      <DependentUpon>tBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tProfile.Designer.cs">
+      <DependentUpon>tProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tMajor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tMajor.Designer.cs">
+      <DependentUpon>tMajor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tStudent.Designer.cs">
+      <DependentUpon>tStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tAdmin.Designer.cs">
+      <DependentUpon>tAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tLogin.Designer.cs">
+      <DependentUpon>tLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="tBill.resx">
+      <DependentUpon>tBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tBook.resx">
+      <DependentUpon>tBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tAdmin.resx">
+      <DependentUpon>tAdmin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tProfile.resx">
+      <DependentUpon>tProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tLogin.resx">
+      <DependentUpon>tLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tMajor.resx">
+      <DependentUpon>tMajor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tStudent.resx">
+      <DependentUpon>tStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\BUS.csproj">
+      <Project>{0c3b6396-10f7-40fd-a324-f81d61733322}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{0a9dc443-5ca6-48d4-b3e9-a8f30eeaa72b}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{6f26f84e-5f08-4501-84ba-3a9901928977}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

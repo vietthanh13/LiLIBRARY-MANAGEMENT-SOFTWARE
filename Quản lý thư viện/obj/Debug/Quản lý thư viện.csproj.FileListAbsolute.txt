@@ -1,0 +1,23 @@
+D:\Quản lý thư viện\Quản lý thư viện\bin\Debug\Quản lý thư viện.exe.config
+D:\Quản lý thư viện\Quản lý thư viện\bin\Debug\Quản lý thư viện.exe
+D:\Quản lý thư viện\Quản lý thư viện\bin\Debug\Quản lý thư viện.pdb
+D:\Quản lý thư viện\Quản lý thư viện\bin\Debug\DAL.dll
+D:\Quản lý thư viện\Quản lý thư viện\bin\Debug\DTO.dll
+D:\Quản lý thư viện\Quản lý thư viện\bin\Debug\DAL.pdb
+D:\Quản lý thư viện\Quản lý thư viện\bin\Debug\DTO.pdb
+D:\Quản lý thư viện\Quản lý thư viện\obj\Debug\Quản lý thư viện.csprojAssemblyReference.cache
+D:\Quản lý thư viện\Quản lý thư viện\obj\Debug\Quản_lý_thư_viện.Properties.Resources.resources
+D:\Quản lý thư viện\Quản lý thư viện\obj\Debug\Quản_lý_thư_viện.tLogin.resources
+D:\Quản lý thư viện\Quản lý thư viện\obj\Debug\Quản lý thư viện.csproj.GenerateResource.cache
+D:\Quản lý thư viện\Quản lý thư viện\obj\Debug\Quản lý thư viện.csproj.CopyComplete
+D:\Quản lý thư viện\Quản lý thư viện\obj\Debug\Quản lý thư viện.exe
+D:\Quản lý thư viện\Quản lý thư viện\obj\Debug\Quản lý thư viện.pdb
+D:\Quản lý thư viện\Quản lý thư viện\bin\Debug\ClassLibrary1.dll
+D:\Quản lý thư viện\Quản lý thư viện\bin\Debug\ClassLibrary1.pdb
+D:\Quản lý thư viện\Quản lý thư viện\obj\Debug\Quản_lý_thư_viện.tAdmin.resources
+D:\Quản lý thư viện\Quản lý thư viện\obj\Debug\Quản_lý_thư_viện.tBook.resources
+D:\Quản lý thư viện\Quản lý thư viện\obj\Debug\Quản_lý_thư_viện.tMajor.resources
+D:\Quản lý thư viện\Quản lý thư viện\obj\Debug\Quản_lý_thư_viện.tStudent.resources
+D:\Quản lý thư viện\Quản lý thư viện\obj\Debug\Quản_lý_thư_viện.tBill.resources
+D:\Quản lý thư viện\Quản lý thư viện\obj\Debug\Quản_lý_thư_viện.tProfile.resources
+D:\Quản lý thư viện\Quản lý thư viện\bin\Debug\log4net.dll
